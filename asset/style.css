@@ -1,0 +1,91 @@
+.main,
+.nav-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bodygame{
+    display: flex;
+    width: 100%;
+}
+.img{
+    width: 400px;
+    height: 400px;
+}
+.AI,
+.AIhell,
+.userhell,
+.user{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ChoseText{
+    text-align: center;
+    text-transform: uppercase;
+}
+.resulthell,
+.result{
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    font-size: 13.33333px;
+    font-weight: 700;
+    border: 2px solid #ccc;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #1296ba;
+    color: black;
+}
+.imgground{
+    height: 9000px;
+    margin-top: 800px;
+}
+
+button{
+    border: 2px solid #ccc;
+    background-color: #1296ba;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+}
+.nav-game{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.playgamehell,
+.playgame{
+    margin-top: 20px;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainhell{
+    margin-top: 500px;
+}
+#nav-game2{
+    margin-top: 200px;
+}
+.textinhell{
+    text-align: center;
+}
+@media (max-width:739px){
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+    button{
+        padding: 15px;
+    }
+    .nav-game{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+}
